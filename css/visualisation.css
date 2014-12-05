@@ -1,0 +1,231 @@
+/* CSS Document */
+
+#retour
+{
+margin-left:20px;
+font-size:0.9em;
+font-family:Arial, Helvetica, sans-serif;
+color:#000000;
+text-align:left;
+float:left;
+}
+
+
+#retour a
+{
+color:#003366;
+text-decoration:none;
+}
+
+#retour a:hover
+{
+text-decoration:underline;
+}
+
+#tab_autre
+{
+	width:auto;
+	height:auto;
+	float:left;
+	margin-left:100px;
+	padding:10px;
+	clear:both;
+}
+
+#tab_vin2{
+width:auto;
+height:auto;
+float:left;
+margin-left:20px;
+padding-bottom:10px;
+clear:both;
+}
+
+.soumettre
+{
+width:200px;
+}
+
+#tab_infos_client th
+{
+width:63px;
+}
+.tab_infos_visu
+{
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+td.tab_infos_client2 
+{
+width:60px;
+border:solid #000000 1px;
+}
+
+input.tab_infos_client2 
+{
+width:71px;
+border:0;
+border:0;
+}
+
+#tab_vin{
+width:auto;
+height:auto;
+float:left;
+margin-left:20px;
+padding-bottom:10px;
+clear:both;
+}
+
+
+
+th
+{
+background-color:#6699FF;
+border:#000000 solid 1px;
+padding:5px;
+margin:0;
+}
+
+td
+{
+font-size:0.9em;
+font-family:Arial, Helvetica, sans-serif;
+border:#000000 solid 1px;
+padding:1px;
+background-color:#FFFFFF;
+}
+
+.tableau_input
+{
+background-color:#FFFFFF;
+font-size:0.9em;
+font-family:Arial, Helvetica, sans-serif;
+color:#000000;
+border:0;
+width:70px;
+}
+
+h2.titre
+{
+font-size:1.1em;
+font-family:Arial, Helvetica, sans-serif;
+color:#000000;
+border-bottom:#003366 solid 2px;
+float:left;
+text-align:left;
+margin-bottom:20px;
+margin-left:20px;
+width:80%;
+margin-top:30px;
+font-weight:300;
+clear:both;
+}
+
+.form_entre
+{
+clear:both;
+margin-left:20px;
+color:#003366;
+float:left;
+margin-top:20px;
+width:auto;
+height:auto;
+text-align:left;
+margin-bottom:10px;
+}
+
+.envoyer
+{
+float:left;
+width:100px;
+clear:both;
+}
+
+.valider_encours
+{
+	background-color:gray;
+	width:71px;
+}
+
+
+input.valider_encours
+{
+	width:65px;
+}
+
+
+/***********************************************BON DE COMMANDE*******************/
+#bon_content
+{
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+#choix_fournisseur, #choix_facture
+{
+	float:left;
+	clear:both;
+	text-align:left;
+}
+
+#infos_fournisseur
+{
+	float:left;
+	width:400px;
+	margin-top:20px;
+}
+
+.erreur
+{
+	color:red;
+	margin-left:0px;
+}
+
+.validation_ok
+{
+	color:#0066CC;
+	margin-left:0px;
+}
+
+
+ligne_fournisseur{
+	float:left;
+	clear:both;
+}
+
+#ligne_commande
+{
+	float:left;
+	clear:both;
+}
+
+.ligne_produit
+{
+	float:left;
+	margin-left:10px;
+}
+
+#get_pdf
+{
+	clear:both;
+	text-align:right;
+	width:700px;
+	
+}
+
+#get_pdf span
+{
+	height:50px;
+	line-height:50px;
+	font-size:0.8em;
+}
+
+
+/*************************************FACTURE******************************/
+
+#choix_facture
