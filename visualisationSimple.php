@@ -11,7 +11,7 @@ $tab = $article->getAll ( $session );
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Gestion des Stocks</title>
 <meta name="description" content="">
 <meta http-equiv="Content-Language" content="fr">
@@ -40,10 +40,11 @@ $tab = $article->getAll ( $session );
 						<tbody>
 							<tr>
 								<th scope="col">Nom</th>
-								<th scope="col">Quantité</th>
+								<th scope="col">QuantitÃ©</th>
 								<th scope="col">Prix</th>
 								<th scope="col">Type</th>
 								<th scope="col">TVA</th>
+								<th scope="col">Pays</th>
 							</tr>
 							<?php
 							
@@ -55,8 +56,11 @@ $tab = $article->getAll ( $session );
 								print ("<td>" . $article->prix . "</td>") ;
 								print ("<td>" . $article->type . "</td>") ;
 								print ("<td>" . $article->tva . "</td>") ;
+								print ("<td>" . $article->getPays() . "</td>") ;
 								print ("</tr>") ;
 							}
+							mysqli_free_result($tab);
+							closeSession($session);
 							?>
 						</tbody>
 					</table>

@@ -186,6 +186,12 @@ input.valider_encours
 	margin-left:0px;
 }
 
+.success
+{
+	color:green;
+	margin-left:0px;
+}
+
 .validation_ok
 {
 	color:#0066CC;
